@@ -51,3 +51,5 @@ DROP_PERCENT=3
 DATA_WAIT_TIME=20 #time (in seconds) to wait for fluctuations in the marketplace to die down
 
 BEST_PRICES_CSV_NAME='best_prices.csv'
+
+MAX_PAGE=15
