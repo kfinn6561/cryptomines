@@ -92,7 +92,7 @@ def get_single_data(base_url,max_level=5):
         level_dat=[]
         j=1
         while True:
-            url=base_url+f'?level={i}&page={j}'
+            url=base_url+f'?level={i}&page={j}&limit=100000'
             print('reading data from %s' %url)
             try:
                 data=requests.get(url).json()

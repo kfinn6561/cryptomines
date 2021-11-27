@@ -52,4 +52,4 @@ DATA_WAIT_TIME=20 #time (in seconds) to wait for fluctuations in the marketplace
 
 BEST_PRICES_CSV_NAME='best_prices.csv'
 
-MAX_PAGE=15
+MAX_PAGE=8
